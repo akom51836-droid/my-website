@@ -3,52 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>موقعي الأول</title>
+  <title>موقعي الاحترافي</title>
   <style>
     body {
-      font-family: Tahoma, Arial, sans-serif;
-      background: linear-gradient(to right, #74ebd5, #ACB6E5);
-      color: #333;
-      text-align: center;
       margin: 0;
-      padding: 0;
+      font-family: 'Tahoma', sans-serif;
+      text-align: center;
+      color: white;
+      background: linear-gradient(-45deg, #1e3c72, #2a5298, #ff512f, #dd2476);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+    }
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
     header {
-      padding: 40px 20px;
+      padding: 60px 20px;
     }
     h1 {
-      color: #222;
-      font-size: 36px;
+      font-size: 42px;
+      margin-bottom: 10px;
     }
     p {
       font-size: 20px;
       margin-bottom: 30px;
     }
+    img {
+      max-width: 200px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      border: 3px solid white;
+    }
     a.button {
       display: inline-block;
-      padding: 12px 25px;
-      background-color: #0066cc;
-      color: #fff;
-      font-size: 18px;
-      border-radius: 8px;
+      padding: 12px 30px;
+      background-color: #ff9800;
+      color: white;
+      font-size: 20px;
+      border-radius: 10px;
       text-decoration: none;
       transition: 0.3s;
     }
     a.button:hover {
-      background-color: #004999;
+      background-color: #e68900;
     }
     footer {
       margin-top: 50px;
-      padding: 15px;
-      background: rgba(0,0,0,0.1);
+      padding: 20px;
+      font-size: 14px;
+      background: rgba(0,0,0,0.3);
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>🎉 أهلاً بك في موقعي</h1>
-    <p>هذا أول موقع أرفعه على GitHub Pages 🚀</p>
-    <a href="https://www.roblox.com/" target="_blank" class="button">ادخل إلى Roblox</a>
+    <h1>🎉 أهلاً بك في موقعي الاحترافي</h1>
+    <p>تم إنشاؤه بواسطة GitHub Pages 🚀</p>
+    <!-- ضع رابط صورتك هنا -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="شعاري">
+    <br>
+    <a href="https://www.roblox.com/" target="_blank" class="button">اذهب إلى Roblox</a>
   </header>
   <footer>
     <p>حقوق الموقع © فيصل 2025</p>
